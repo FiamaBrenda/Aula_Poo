@@ -4,7 +4,7 @@
 
 import javax.swing.JOptionPane;
         
-public class parvito {
+public class par {
     
     public static void main(String[] args) {
         	
