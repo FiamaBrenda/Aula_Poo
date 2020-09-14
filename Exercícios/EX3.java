@@ -2,20 +2,23 @@
 /*
 1) Um programa capaz de imprimir todos os números pares em um intervalo de números informado pelo usuário; */
 
-import  java.util.Scanner ;
-public class par {
-
+import javax.swing.JOptionPane;
+        
+public class parvito {
+    
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Digite um número: ");
-        int num = input.nextInt();
-
-        while(num > 0){
-            if(num%2 == 0){
-            System.out.println(num);
+        	
+	try {
+            int num = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite um número: "));
+            while(num > 0){
+                if(num%2 == 0){
+                System.out.println(num);
+                }
+                num--;
             }
-            num--;
-        }
-
+	 } catch (Exception e) {
+            JOptionPane.showMessageDialog(null,"Ocorreu o seguinte erro na execução do programa:  " + e);
+                 
+         }
     }
 }
