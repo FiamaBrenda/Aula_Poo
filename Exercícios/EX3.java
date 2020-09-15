@@ -1,6 +1,5 @@
 
-/*
-1) Um programa capaz de imprimir todos os números pares em um intervalo de números informado pelo usuário; */
+
 
 import javax.swing.JOptionPane;
         
