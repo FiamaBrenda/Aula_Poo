@@ -22,7 +22,7 @@ public class medAritimetica {
             a=Integer.parseInt(nota1);
             b=Integer.parseInt(nota2);
             c=Integer.parseInt(nota3);
-            d=Integer.parseInt(nota3);
+            d=Integer.parseInt(nota4);
             med=media(a,b,c,d);
             JOptionPane.showMessageDialog(null, "A média é "+med);
         }
