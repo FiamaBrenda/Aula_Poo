@@ -5,7 +5,7 @@
  */
 import javax.swing.JOptionPane;
 public class medAritimetica {
-    float nota1, nota2, nota3,nota4;
+    
     public static float media(float nota1, float nota2, float nota3, float nota4)
     {
         float nfinal=(nota1+nota2+nota3+nota4)/4;
